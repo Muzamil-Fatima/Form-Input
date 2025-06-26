@@ -1,6 +1,7 @@
 const passwordFields = document.querySelectorAll('.pass');
 
 passwordFields.forEach((passField) => {
+
   let errMess = document.createElement("span");
   errMess.style.color = "red";
   passField.parentNode.appendChild(errMess);
