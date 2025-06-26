@@ -1,0 +1,22 @@
+form {
+  width: 30vw;
+  height: 60vh;
+  padding: 2rem;
+  margin: 5rem;
+  background-color: #9b8d8d;
+}
+
+p {
+  width: 30vw;
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.m-b {
+  margin-bottom: 0.7rem;
+}
+#btn {
+  height: 40px;
+  width: 120px;
+  background-color: aquamarine;
+}
