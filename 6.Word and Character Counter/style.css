@@ -1,0 +1,28 @@
+.container {
+  height: 60vh;
+  width: 60vw;
+  border: 2px solid seagreen;
+}
+
+.total-words {
+  height: 50px;
+  width: 200px;
+}
+
+.btn,
+.total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 120px;
+  border: 2px solid blueviolet;
+}
+
+.flex {
+  height: 60vh;
+  width: 40vw;
+  display: flex;
+  margin: 1rem;
+  justify-content: space-between;
+}

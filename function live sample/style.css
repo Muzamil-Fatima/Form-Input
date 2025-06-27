@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1919;
+}
+.container {
+  margin: 12rem;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  height: 30px;
+  width: 220px;
+}
