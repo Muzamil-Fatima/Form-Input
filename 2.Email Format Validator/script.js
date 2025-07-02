@@ -1,5 +1,6 @@
 const emailInput = document.getElementById("email");
 const errorMsg = document.getElementById("emailError");
+const button = document.querySelector('.btn')
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 emailInput.addEventListener("input", () => {
@@ -11,3 +12,7 @@ emailInput.addEventListener("input", () => {
     errorMsg.textContent = "";
   }
 });
+
+button.addEventListener("click", ()=>{
+  alert("button clicked successfully")
+})
